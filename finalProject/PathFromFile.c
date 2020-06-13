@@ -21,6 +21,7 @@ int checkAndDisplayPathFromFile(char* file_name, movesArray** moves, char** boar
 	}
 	//Call display function ( question 2)
 
+
 	list = findPathCoveringAllBoard(start4, moves4, boardMini);
 	if (list == NULL)
 		return 3;
